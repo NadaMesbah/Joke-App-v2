@@ -1,0 +1,27 @@
+﻿<h4>Welcome to the Search page</h4>
+<hr />
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-header">
+                Search for a joke
+            </div>
+            <div class="card-body">
+                <form asp-action="ShowSearchResults">
+                    <div class="mb-3">
+                        <label for="SearchPhrase" class="control-label"></label>
+                        <input name="SearchPhrase" class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <input type="submit" value="Search" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer">
+                <a asp-action="Index">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
